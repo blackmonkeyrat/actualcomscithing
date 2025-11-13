@@ -7,11 +7,11 @@ body {
 }
 
 h1 {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(85, 75, 75);
 }
 
 p, ul, ol, table {
-    line-height: 2;
+    line-height: 1.5;
     text-align: left;
     max-width: 300px;
     margin: 0 auto 1em auto;
@@ -23,7 +23,18 @@ ul, ol {
 }
 
 table {
-    background-color: rgb(35, 33, 33);
+    background-color: rgb(79, 74, 74);
     width: 60%;
     margin: 0 auto 10px auto
+}
+
+a {
+    color: white
+}
+a:hover {
+    color: grey;
+}
+
+th, td {
+    border: 1px solid black
 }
